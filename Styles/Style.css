@@ -16,12 +16,15 @@ top:0;
 width:100%;
 }
 #leftDiv{
+position: absolute;
+left: 0px;
+width: 200px;
 min-width:100px;
 min-height:300px;
 background-color:blue;
 float:left;
 margin:10px;
-position:absolute;
+
 }
 
 #innerDiv{
@@ -32,6 +35,7 @@ position:relative;
 }
 
 #mainDiv{
+clear:both;
 margin:5px;
 background-color:green;
 min-height:300px;
@@ -43,4 +47,14 @@ width:100%;
 position:fixed;
 bottom:0;
 z-index:999999;
+}
+
+.leftImage{
+float:left;
+margin:5px;
+}
+
+.rightImage{
+float:right;
+margin:5px;
 }
