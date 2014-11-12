@@ -1,0 +1,6 @@
+H:\ca2\ca2\bin\ca2.dll.config
+H:\ca2\ca2\bin\ca2.dll
+H:\ca2\ca2\bin\ca2.pdb
+H:\ca2\ca2\obj\Debug\ca2.csprojResolveAssemblyReference.cache
+H:\ca2\ca2\obj\Debug\ca2.dll
+H:\ca2\ca2\obj\Debug\ca2.pdb
