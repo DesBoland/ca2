@@ -2,3 +2,27 @@ body{
 padding:0;
 margin:0;
 }
+
+
+#outerDiv{
+background-color:black;
+}
+
+#headerDiv{
+background-color:pink;
+}
+
+#innerDiv{
+background-color:yellow;
+width:700px;
+margin: 0 auto;
+}
+
+#mainDiv{
+margin:5px;
+background-color:green;
+}
+
+#footerDiv{
+background-color:red;
+}
