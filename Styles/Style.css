@@ -52,9 +52,15 @@ z-index:999999;
 .leftImage{
 float:left;
 margin:5px;
+padding:5px;
 }
 
 .rightImage{
 float:right;
 margin:5px;
+padding:5px;
+}
+
+p{
+padding:5px;
 }
