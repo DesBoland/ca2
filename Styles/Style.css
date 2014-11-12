@@ -17,10 +17,17 @@ background-color:yellow;
 width:700px;
 margin: 0 auto;
 }
-
+#leftDiv{
+width:100px;
+min-height:300px;
+background-color:blue;
+float:left;
+margin:10px;
+}
 #mainDiv{
 margin:5px;
 background-color:green;
+min-height:300px;
 }
 
 #footerDiv{
