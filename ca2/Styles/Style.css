@@ -1,11 +1,20 @@
 body{
 padding:0;
 margin:0;
+background-image:url("/Images/background.jpg");
+background-size:cover;
+/*background-image:url("\\studentstore.student.nci.col\redirection$\x11115122\Desktop\New%20folder%20 (2)\ca2\ca2\Images\background.jpg");*/
 }
 
 
 #outerDiv{
-background-color:black;
+    position:relative;
+    margin:0 auto;
+    top:80px;
+    margin-bottom:60px;
+/*background-color:black;*/
+
+
 /*get background image, try background-size:cover;*/
 }
 
@@ -22,7 +31,6 @@ position: fixed;
 left: 5px;
 top:25%;
 width: 200px;
-min-width:100px;
 min-height:300px;
 background-color:blue;
 float:left;
@@ -36,13 +44,14 @@ width:700px;
 margin: 0 auto;
 position:relative;
 padding:5px;
+min-height:100%;
 }
 
 #mainDiv{
 clear:both;
 margin:5px;
 background-color:green;
-min-height:300px;
+min-height:600px;
 }
 
 #footerDiv{
@@ -74,8 +83,9 @@ padding:5px;
 {
 padding:20px;
 background-color:yellow;
-top:20%;
-right:50%;
+top:30%;
+left:25%;
+
 position:absolute;
 }
 

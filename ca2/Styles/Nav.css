@@ -44,18 +44,36 @@ color:pink;
 }
 
 
-.Blue,.Blue .button a
+.Blue,.Blue .vertical a
 {	
 color:White;
 background: Blue;
 }
 
-.Blue .button a:hover,.Blue .button a:focus
+.Blue .vertical a:hover,.Blue .vertical a:focus
 {
 background: darkBlue;
 
 }
-.Blue .button a:active
+.Blue .vertical a:active
 {
 color:pink;
+}
+
+.vertical a
+{
+display: block;
+cursor:pointer;
+text-align:center;
+font:18px/100% Verdana, Geneva, sans-serif;
+font-weight:bold;
+/*position:relative;*/
+width: 200px;
+height:20px;
+float:left;
+/*padding:10px;*/
+padding-top:15px;
+padding-bottom:15px;
+text-decoration:underline;
+text-shadow:0 4px 4px rgba(0,0,0,.6)
 }

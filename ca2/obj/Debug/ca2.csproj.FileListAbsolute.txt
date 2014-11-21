@@ -4,3 +4,9 @@ H:\ca2\ca2\bin\ca2.pdb
 H:\ca2\ca2\obj\Debug\ca2.csprojResolveAssemblyReference.cache
 H:\ca2\ca2\obj\Debug\ca2.dll
 H:\ca2\ca2\obj\Debug\ca2.pdb
+\\studentstore.student.nci.col\redirection$\x11115122\Desktop\New folder (2)\ca2\ca2\bin\ca2.dll.config
+\\studentstore.student.nci.col\redirection$\x11115122\Desktop\New folder (2)\ca2\ca2\bin\ca2.dll
+\\studentstore.student.nci.col\redirection$\x11115122\Desktop\New folder (2)\ca2\ca2\bin\ca2.pdb
+\\studentstore.student.nci.col\redirection$\x11115122\Desktop\New folder (2)\ca2\ca2\obj\Debug\ca2.csprojResolveAssemblyReference.cache
+\\studentstore.student.nci.col\redirection$\x11115122\Desktop\New folder (2)\ca2\ca2\obj\Debug\ca2.dll
+\\studentstore.student.nci.col\redirection$\x11115122\Desktop\New folder (2)\ca2\ca2\obj\Debug\ca2.pdb
