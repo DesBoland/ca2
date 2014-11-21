@@ -5,25 +5,45 @@
 		<link rel="stylesheet" type="text/css" href="Styles\Nav.css">
 		<title>Contact Us</title>
 	</head>
-	<body>
-		<div id="outerDiv">
+	<div id="outerDiv">
+			Outer Div
 			<div id="headerDiv">
 				<ul id="menu_wrap" class="Green">
 					<li class="button"><a href="index.html">Home</a></li>
 					<li class="button"><a href="aboutus.html">About Us</a></li>
 					<li class="button"><a href="contactus.html">Contact Us</a></li>
 					<li class="button"><a href="gallery.html">Gallery</a></li>
+				</ul>			
+			</div>
+
+			<div id="leftDiv">
+				<ul id="menu_wrap" class="Blue">
+					<li class="button"><a href="index.html">Home</a></li>
+					<li class="button"><a href="aboutus.html">About Us</a></li>
+					<li class="button"><a href="contactus.html">Contact Us</a></li>
+					<li class="button"><a href="gallery.html">Gallery</a></li>
 				</ul>	
 			</div>
+				<div style="clear: both;"></div>
 			<div id="innerDiv">
-				<div id="mainDiv">
-					<h1>Welcome to the CA2 project</h1>
-
-					<p>My first paragraph.</p>
+				Inner Div
 				
+				<div id="mainDiv">
+					<p>Contact us to be added here</p>
+					<div id="formDiv">
+					<form class="form" id="formContact">
+						<input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,50]] feedback-input" placeholder="Enter full name" id="name" />
+						<br/>
+						<input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Enter email address" />
+						<br/>
+						<textarea name="text" class="validate[required,length[10,500]] feedback-input" id="comment" placeholder="Enter comment here"></textarea>
+						<br/>
+						<input type="submit" value="Sublit Comment" id="submitButton"/>
+						</div>
 				</div>
 			</div>
 			<div id="footerDiv">
+				Footer div
 			</div>
 		</div>
 	</body>

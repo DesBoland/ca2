@@ -42,3 +42,20 @@ background: #6b9d28;
 {
 color:pink;
 }
+
+
+.Blue,.Blue .button a
+{	
+color:White;
+background: Blue;
+}
+
+.Blue .button a:hover,.Blue .button a:focus
+{
+background: darkBlue;
+
+}
+.Blue .button a:active
+{
+color:pink;
+}

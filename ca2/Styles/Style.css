@@ -6,6 +6,7 @@ margin:0;
 
 #outerDiv{
 background-color:black;
+/*get background image, try background-size:cover;*/
 }
 
 #headerDiv{
@@ -15,9 +16,11 @@ z-index:999999;
 top:0;
 width:100%;
 }
+
 #leftDiv{
-position: absolute;
-left: 0px;
+position: fixed;
+left: 5px;
+top:25%;
 width: 200px;
 min-width:100px;
 min-height:300px;
@@ -65,3 +68,68 @@ padding:5px;
 p{
 padding:5px;
 }
+
+
+#formDiv
+{
+padding:20px;
+background-color:yellow;
+top:20%;
+right:50%;
+position:absolute;
+}
+
+.feedback-input {
+	color:blue;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight:bolder;
+	font-size: 20px;
+	background-color: black;
+	padding: 20px;
+	margin-bottom: 10px;
+	width:250px;
+	border: 3px solid red;
+}
+
+.feedback-input:focus{
+	background: green;	
+	border: 3px solid purple;
+	color:pink;
+	padding: 20px;
+}
+
+.focused{
+	color:red;
+	border:red solid 3px;
+}
+
+
+#submitButton:hover{
+	background-color: red;
+	color: white;
+}
+	
+.submit:hover {
+	color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
