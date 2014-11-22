@@ -1,7 +1,7 @@
 body{
 padding:0;
 margin:0;
-background-image:url("/Images/background.jpg");
+background-image:url("/Images/Background.jpg");
 background-size:cover;
 /*background-image:url("\\studentstore.student.nci.col\redirection$\x11115122\Desktop\New%20folder%20 (2)\ca2\ca2\Images\background.jpg");*/
 }
@@ -20,7 +20,7 @@ background-size:cover;
 }
 
 #headerDiv{
-background-color:pink;
+background-color:#119600;
 position:fixed;
 z-index:999999;
 top:0;
@@ -33,30 +33,40 @@ left: 5px;
 top:25%;
 width: 200px;
 min-height:300px;
-background-color:blue;
+
+background-image:url("/Images/greenBaubles.jpg");
 float:left;
 margin:10px;
-
+background-color:green;
+background-size:cover;
+ box-shadow: 10px 10px 5px #119600;
+border: 2px solid;
+border-color:#119600;
+border-radius: 25px;
 }
 
 #innerDiv{
-background-color:yellow;
+background-color:#119600;
 width:700px;
 margin: 0 auto;
 position:relative;
 padding:5px;
 min-height:100%;
+
 }
 
 #mainDiv{
 clear:both;
+position:relative;
 margin:5px;
-background-color:green;
+background-image:url("/Images/fadedBackground.jpg");
+background-size:cover;
+    
+background-color:#119600;
 min-height:600px;
 }
-
 #footerDiv{
-background-color:red;
+background-color:#7db72f;
 width:100%;
 position:fixed;
 bottom:0;

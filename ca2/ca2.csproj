@@ -60,7 +60,10 @@
     <Content Include="aboutus.html" />
     <Content Include="contactus.html" />
     <Content Include="gallery.html" />
-    <Content Include="Images\background.jpg" />
+    <Content Include="Images\Background.jpg" />
+    <Content Include="Images\fadedBackground.jpg" />
+    <Content Include="Images\greenBaubles.jpg" />
+    <Content Include="Images\hat.jpg" />
     <Content Include="Images\loremIpsum1.jpg" />
     <Content Include="Images\loremIpsum2.jpg" />
     <Content Include="index.html" />
