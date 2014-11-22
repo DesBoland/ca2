@@ -1,0 +1,35 @@
+﻿body {
+}
+
+#galleryDiv{
+    width:600px;
+    margin:0 auto;
+}
+
+#galleryDiv li {
+  float:left; 
+  position:relative; 
+  display:inline-block; 
+  width:200px; 
+  height:200px;
+  margin:10px; 
+  padding:10px; 
+  background:#fff; 
+ 
+}
+#galleryDiv li div {
+  position:absolute;
+  height:0; 
+  width:180px;
+  background:rgba(0,0,0,.45); 
+  overflow:hidden;
+  bottom:10px; 
+  left:10px;
+  padding: 0 10px;
+  line-height:50px;
+  color:#fff;
+  transition:height 1s;
+}
+#galleryDiv li:hover div {
+  height:50px;
+}
