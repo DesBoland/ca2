@@ -33,3 +33,7 @@
 #galleryDiv li:hover div {
   height:50px;
 }
+
+#galleryDiv h1{
+    color:#119600;
+}
